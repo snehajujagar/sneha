@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to MyProfile</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #FF8C00, #FFD700);
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(to right, #2c3e50, #3498db);
+      color: #ecf0f1;
+      padding: 1em;
+      text-align: center;
+    }
+
+    nav {
+      background: linear-gradient(to right, #34495e, #3498db);
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: #ecf0f1;
+      text-decoration: none;
+      margin: 0 10px;
+      font-weight: bold;
+      transition: color 0.3s ease-in-out;
+    }
+
+    nav a:hover {
+      color: #FFD700;
+    }
+
+    section {
+      max-width: 800px;
+      margin: 20px auto;
+      background: linear-gradient(to right, #ffffff, #f0f8ff);
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    }
+
+    img {
+      border-radius: 100px;
+      max-width: 200px;
+      height: auto;
+    }
+
+    h2 {
+      color: #2c3e50;
+    }
+
+    h3 {
+      color: #FFD700;
+    }
+
+    p {
+      color: #555;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 8px;
+      color: #2c3e50;
+    }
+
+    .animate {
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 style="font-size: 2em;">WELCOME TO MY PROFILE</h1>
+  </header>
+
+  <nav>
+    <a href="#profile">Profile</a>
+    <a href="#skills">Skills</a>
+    <a href="#education">Education</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="profile" class="animate">
+    <img src="./sneha.jpg" alt="Student Photo">
+    
+    <h2 style="color: #FFD700;">Sneha Arvind Jujagar</h2>
+    <p style="color: #2c3e50; font-style: italic;">AIDS</p>
+    <p style="color: #2c3e50;">Class of AIDS : C</p>
+    <p style="color: #2c3e50;">Contact: snehajujagar@gmail.com</p>
+  </section>
+
+  <section id="skills" class="animate">
+    <h2 style="color: #FFD700;">Skills</h2>
+    <ul>
+      <li>Programming</li>
+      <li>Web Development</li>
+      <li>Data Structures</li>
+      <li>HTML/CSS</li>
+      <li>Python</li>
+    </ul>
+  </section>
+
+  <section id="education" class="animate">
+    <h2 style="color: #FFD700;">Graduation Purcuing</h2>
+    <p style="color: #2c3e50;">Bachelor Technology in Artifical Intelligence & Data Science</p>
+    <p style="color: #2c3e50;">Zeal College of Engineering and Research, Pune</p>
+
+    <p style="color: #2c3e50;">University of Savitribai Phule Pune University</p>
+    <p style="color: #2c3e50;">Staring: September 2024</p>
+    <p style="color: #2c3e50;">Completing: 2028(Approximately)</p>
+  </section>
+  <section id="education" class="animate">
+    <h2 style="color: #FFD700;">Higher Education</h2>
+    <p style="color: #2c3e50;">HSC in Science</p>
+    <p style="color: #2c3e50;">Shri Tilok Jain Secondary And Higher Secondary Vidyalaya, Pathardi</p>
+    <p style="color: #2c3e50;">University of Maharashtra State Government</p>
+    <p style="color: #2c3e50;">Completed: March 2024</p>
+  </section>
+
+ 
+
+  <section id="projects" class="animate">
+    <h2 style="color: #FFD700;">Projects</h2>
+    <h3 style="color: #2c3e50;">Portfolio Website</h3>
+    <p style="color: #2c3e50;">Designed and developed a personal portfolio website to showcase skills and projects.</p>
+   </section>
+
+  <section id="contact" class="animate">
+    <h2 style="color: #FFD700;">Contact</h2>
+    <p style="color: #2c3e50;">Email: snehajujagr@gmail.com</p>
+    <p style="color: #2c3e50;">LinkedIn: linkedin.com/in/snehajujagar</p>
+    <p style="color: #2c3e50;">GitHub: github.com/snehajujagar</p>
+  </section>
+</body>
+</html>
